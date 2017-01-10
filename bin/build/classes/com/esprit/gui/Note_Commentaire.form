@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-1,0,0,4,-100"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Note" alignment="1" min="-2" pref="437" max="-2" attributes="0"/>
+                          <Component id="commentaire" alignment="1" min="-2" pref="437" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" min="-2" pref="153" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="comm" alignment="0" min="-2" pref="834" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="426" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="490" max="32767" attributes="0"/>
+              <Component id="annuler" min="-2" pref="150" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+              <Component id="Publier" min="-2" pref="157" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="473" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="1323" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="47" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Note" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="commentaire" min="-2" pref="47" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Component id="comm" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="104" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Publier" pref="45" max="32767" attributes="0"/>
+                  <Component id="annuler" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="342" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="950" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Note">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Attribuez une note SVP:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="commentaire">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ecrivez un commentaire SVP:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="comm">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Ecrire un commentaire..."/>
+        <Property name="viewportBorder" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+        <Property name="autoscrolls" type="boolean" value="true"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Curseur par d&#xe9;faut"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="18" style="1"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jCommentaire">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jCommentaireMouseClicked"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jCommentaireKeyPressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="Publier">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Rounded MT Bold" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Publier"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PublierMouseReleased"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PublierActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Unicode MS" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Noter &amp; Commenter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="annuler">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Rounded MT Bold" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Annuler"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="annulerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="18" style="2"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Note sur 5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jComboBox1ItemStateChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/com/esprit/gui/arriere plan.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Titre"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
